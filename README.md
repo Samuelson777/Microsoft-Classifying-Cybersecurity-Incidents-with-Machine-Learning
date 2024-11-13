@@ -57,10 +57,6 @@ metrics:
 - **Recall**: Measures the model's ability to correctly identify all relevant instances
  (true positives), which is important for ensuring that real threats are not missed.
 
-## Streamlit Application Development:
-- Deploying the predictive model through the Streamlit application 
-revolutionizes the user experience at CarDekho by delivering swift and 
-reliable price estimates for used cars.
 ## Business Use Cases
 The solution developed can be implemented in various business scenarios, including:
 - **Security Operation Centers (SOCs)**: Automating the triage process.
@@ -99,39 +95,7 @@ By the end of the project, the machine learning model achieved the following per
 
 ### Limitations
 - One of the challenges faced during the project was related to local GPU issues while running the model, which affected the training time and efficiency.
-- This issue can be solved by using colab notebook for ## Results
-
-By the end of the project, the machine learning model achieved the following performance metrics:
-
-### Performance Metrics for New Train Sample Dataset (XGBoost Model)
-
-| Metric       | Training       | Testing        |
-|--------------|----------------|----------------|
-| Accuracy     | 95.35%         | 92.46%         |
-| Precision    | 95.38%         | 92.52%         |
-| Recall       | 95.35%         | 92.47%         |
-| Macro F1     | 95.35%         | 92.46%         |
-
-### Performance Metrics for GUIDE Test Dataset (XGBoost Model)
-
-| Metric       | Training       | Testing        |
-|--------------|----------------|----------------|
-| Accuracy     | 96.22%         | 93.32%         |
-| Precision    | 96.24%         | 93.39%         |
-| Recall       | 96.22%         | 93.31%         |
-| Macro F1     | 96.22%         | 93.32%         |
-
-### Key Findings
-- The model demonstrates a high level of accuracy, precision, recall, and macro F1 score, indicating its effectiveness in classifying the triage grades of cybersecurity incidents (TP, BP, FP).
-- The XGBoost model performed particularly well on the GUIDE test dataset, achieving an accuracy of 93.32%, which is an improvement over the performance on the new train sample.
-
-### Comparison to Baseline
-- The results from the training and testing datasets indicate that the implemented model significantly outperforms baseline models, showcasing the effectiveness of the selected machine learning techniques and preprocessing strategies.
-
-### Limitations
-- One of the challenges faced during the project was related to Local GPU issues while running the model, which affected the training time and efficiency.
-- This issue can be solved by using google colab notebook for executing the models.
-### Conclusion
-The project successfully developed a machine learning model capable of accurately predicting the triage grade of cybersecurity incidents, with comprehensive analysis and documentation provided. Future improvements could focus on addressing the limitations encountered during model training and exploring additional features for further enhancing model performance. 
+- This issue can be solved by using colab notebook for executing the models.
+ 
 ### Conclusion
 The project successfully developed a machine learning model capable of accurately predicting the triage grade of cybersecurity incidents, with comprehensive analysis and documentation provided. Future improvements could focus on addressing the limitations encountered during model training and exploring additional features for further enhancing model performance.

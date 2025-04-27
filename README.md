@@ -99,3 +99,6 @@ By the end of the project, the machine learning model achieved the following per
  
 ### Conclusion
 The project successfully developed a machine learning model capable of accurately predicting the triage grade of cybersecurity incidents, with comprehensive analysis and documentation provided. Future improvements could focus on addressing the limitations encountered during model training and exploring additional features for further enhancing model performance.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Samuelson777/Microsoft-Classifying-Cybersecurity-Incidents-with-Machine-Learning/blob/main/LICENSE) file for details.
